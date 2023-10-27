@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My University</title>
+        <style>
+            *{
+                   padding: 0px;
+                   margin: 0px;
+               }
+               body{
+                   background: rgb(250, 243, 240);
+               }
+               nav, #footer{
+                   background: rgb(212, 226, 212);
+                   padding: 8px;
+                   text-align: center;
+               }
+               nav ul li{
+                   padding: 10px;
+                   display: inline;
+                   color: rgb(64, 19, 64);
+                   font-weight: bold;
+               }
+               a{
+                   
+                   text-decoration:none; 
+               }
+               h1{
+                   text-align: center;
+                   margin: 30px;
+               }
+               p,h3{
+                   margin: 30px;
+                   font-size: 18px;
+                   text-align: justify;
+               }
+               .container{
+                   display: flex;
+                   flex-direction: row;
+               }
+               .column-1{
+                   width: 70%;
+               }
+               img{
+                   margin: 15px;
+                   width: 250px;
+                  height: 200px;
+                  
+               }
+               .column-2{
+                   width: 30%;
+               }
+               li{
+                   margin-left: 55px;
+               }
+               #bmcc_logo{
+                   width: 400px;
+                   height: 250px;
+               }
+               #last_text{
+                   font-style: italic;
+                   margin: 40px;
+                   text-align: center;
+               }
+       </style>
+    </head>
+    
+    <body>
+        <nav>
+            <ul>
+                <li><a href="index.html">About Me</a></li>
+                <li><a href="myUniversity.html">My University</a></li>
+                <li><a href="myResume.html">Resume</a></li>
+            </ul>
+        </nav>
+        <h1>Borough of Manhattan Community College(BMCC)</h1>
+        <p>The BMCC campus is spread across several buildings: Main Campus. 199 Chambers Street. Fiterman Hall at 245 Greenwich Street and Murray Street at 70 Murray.
+        <p>BMCC is located in downtown Manhattan, New York City</p>
+        <center>
+        <img id="bmcc_logo" src="bmcc.png" alt="No image selected"/>
+        </center>
+        <h3>Vision</h3>
+        <p>"Borough of Manhattan Community College is a diverse teaching and learning community committed to advancing equity and the intellectual and personal growth of students. Working to strengthen a culture of care inside and outside the classroom, we share a passion for learning with students from around the world. We strive to increase degree completion, successful transfer, career achievement and service and leadership within our community, New York City, and beyond."</p>
+        <h3>Mission</h3>
+        <div class="container">
+            <div class="column-1">
+                <p>"BMCC will be nationally recognized for improving student learning and success, excellence in research and knowledge creation, and for advancing socioeconomic mobility through the transformative power of education. BMCC faculty and staff are committed to strengthening our culture of care, and take responsibility for creating the conditions under which all students can learn and all members of the BMCC community can thrive. Teaching and learning at BMCC, both inside and outside the classroom, is culturally responsive and sustaining, deeply engaging, and celebrates the rich diversity of experience and knowledge that the entire community brings to the College. Our students, faculty, staff, and alumni share great pride for BMCC, and for our role in creating a better, more equitable New York City."</p>
+            </div>
+            <div class="column-2">
+                <img src="vision.jpg" alt="No image selected" />
+            </div>
+        </div>
+       
+
+
+        <h3>Computer Science Major</h3>
+        <ul>
+            <li>Offers an Associate in Science degree in Computer Science</li>
+            <li>Focuses on foundations of computer science like data structures, algorithms, database, design,etc.</li>
+            <li>It also covers software development with languages like Python, Java, C++.</li>
+            <li>Small classes taught by professors with industry experience</li>
+            <li>Variety of CS electives like web development, mobile app development, data science</li>
+        </ul>
+        <h3>Clubs/Activities:</h3>
+        <ul>
+            <li>There is a Programming Club on Wednesdays from 2pm to 4pm at F-208</li>
+            <li>Hosts tech talks, workshops, hackathons, and field trips for CS students</li>
+            <li>Helps with career development and networking opportunities in the tech industry.</li>
+        </ul>
+        <h3>My Classes:</h3>
+        <p>I am in my last semester at BMCC and I am taking the following classes</p>
+        <ul>
+            <li>CSC 350 - Software Development</li>
+            <li>CIS 385 - Web Programming I</li>
+            <li>CSC 331- Data Structures</li>
+            <li>CIS 362- Cloud Computing</li>
+            <li>History of the Dominican Republic</li>
+        </ul>
+        <p id="last_text">Thank you for reading!!!</p><br><br>
+
+        <div id="footer">© Copyright - Gabriela Guayara</div>
+    </body>
+</html>
